@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Path } from '../../config'
-
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-newsletter',
+  templateUrl: './newsletter.component.html',
+  styleUrls: ['./newsletter.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class NewsletterComponent implements OnInit {
   assets_url: String = Path.url;
+
   constructor() { }
 
   ngOnInit() {
